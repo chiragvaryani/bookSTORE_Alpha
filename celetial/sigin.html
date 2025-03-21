@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - Celestial Books</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <section id="signup">
+      <nav>
+        <div class="nav__container"><a href="index.html">
+          <img class="logo" src="./assets/nav-pic.png" alt="Celestial Books" style="height: 163px; width: auto;" />
+          </a>
+          <ul class="nav__links">
+            <li><a href="index.html" class="nav__link">Home</a></li>
+            <li><a href="contact.html" class="nav__link">Contact</a></li>
+            <li><a href="books.html" class="nav__link nav__link--primary">Books</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="form__container">
+        <h2>Sign Up</h2>
+        <div class="signf">
+          <div class="sigi">
+              
+          <figure class="header__img--wrapper">
+            <img src="./assets/illustrate/undraw_book-lover_cmz5.svg" alt="binge sake" />
+          </figure>
+
+          </div>
+            <div class="form_sigin">
+              <form action="index.php" method="POST" class="sign_from">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required class="sign-input"/>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required class="sign-input"/>
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required class="sign-input"/>
+
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" name="confirm-password" required class="sign-input"/>
+
+          <button type="submit" class="btn sign-btn">Sign Up</button>
+          
+            </form>
+          </div>
+          </div>
+    </div>
+
+        <p style="    margin-left: 45%;
+    margin-top: 3%;
+    margin-bottom: 3%;">Already have an account? <a href="login.html">Login here</a></p>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row row__column">
+          <a href="#">  
+            <figure class="footer__logo">
+              <img src="./assets/nav-pic.png" class="footer__logo--img" alt="Celestial Books">
+            </figure>
+          </a>
+          <div class="footer__list">
+            <a href="index.html" class="footer__links">Home</a>
+            <a href="about.html" class="footer__links">About</a>
+            <a href="books.html" class="footer__links">Books</a>
+            <a href="contact.html" class="footer__links">Contact</a>
+          </div>
+          <div class="footer__copyright">Copyright &copy; 2025 Celestial</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

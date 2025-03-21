@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Celestial Books</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <section id="about">
+      <nav>
+        <div class="nav__container">
+          <a href="index.html">
+            <img class="logo" src="./assets/nav-pic.png" alt="Celestial Books" style="height: 163px; width: auto;" />
+            </a>
+    <ul class="nav__links">
+      <li>
+        <a href="index.html" class="nav__link">Home</a>
+      </li>
+      <li>
+        <a href="contact.html" class="nav__link ">Contact</a>
+      </li>
+      <li>
+        <a href="books.html" class="nav__link nav__link">Books</a>
+      </li>
+      <li>
+        <a href="login.html" class="nav__link nav__link--primary login_btn">Log in</a>
+      </li>
+    </ul>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list">
+                <a href="index.html" class="menu__link" onclick="closeMenu()">Home</a>
+              </li>
+              <li class="menu__list">
+                <a href="books.html" class="menu__link" onclick="closeMenu()">Books</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link no-cursor" onclick="closeMenu()">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="header__container">
+          <div class="header__description">
+            <h1>About <span class="text--orange">Celestial Books</span></h1>
+            <p>
+              Celestial Books is dedicated to bringing you the best books at affordable prices. <br>
+              Our mission is to create a community of readers who love to explore new worlds through books.
+            </p>
+            
+          <figure class="header__img--wrapper">
+            <img src="./assets/undraw_relaxed-reading_wfkr (1).svg" alt="binge sake" />
+          </figure>
+            <a href="books.html">
+              <button class="btn">Explore Books</button>
+            </a>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <main>
+      <section id="our-mission">
+        <div class="container">
+          <div class="row">
+            <h2>Our <span class="text--orange">Mission</span></h2>
+            <p class="mission__text">
+              At  Books, we believe that knowledge should be accessible to everyone. 
+              We strive to offer a vast collection of books across various genres, ensuring that there is something for every reader.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="our-values">
+        <div class="container">
+          <div class="row">
+            <h2>Our <span class="text--orange">Values</span></h2>
+            <div class="values__wrapper">
+              <div class="value">
+                <i class="fas fa-book"></i>
+                <h3>Passion for Books</h3>
+                <p>We love books and want to share our passion with the world.</p>
+              </div>
+              <div class="value">
+                <i class="fas fa-users"></i>
+                <h3>Community</h3>
+                <p>We are committed to building a community of readers.</p>
+              </div>
+              <div class="value">
+                <i class="fas fa-globe"></i>
+                <h3>Accessibility</h3>
+                <p>Books should be affordable and available to everyone.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row row__column">
+          <a href="index.html">  
+            <figure class="footer__logo">
+              <img src="./assets/nav-pic.png" class="footer__logo--img" alt="Celestial Books">
+            </figure>
+          </a>
+          <div class="footer__list">
+            <a href="index.html" class="footer__links">Home</a>
+            <a href="about.html" class="footer__links no-cursor">About</a>
+            <a href="books.html" class="footer__links">Books</a>
+            <a href="contact.html" class="footer__links">Contact</a>
+          </div>
+          <div class="footer__copyright">
+            Copyright &copy; 2025 Celestial Books
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
